@@ -1,9 +1,9 @@
 # Décodeur 7 segments
-On veut afficher sur l'afficheur sept segments les nombres allant de 0 à 15 en hexadécimal. Pour pouvoir représenter les nombres allant de 0 à 15 il nous faut un **4 bits**. Cette entrée on la nommera *x*.
+On veut afficher sur l'afficheur sept segments les nombres allant de 0 à 15 en hexadécimal. Pour pouvoir représenter les nombres allant de 0 à 15 il nous faut **4 bits**. Cette entrée on la nommera *x*.
 
-L'afficheur 7 segments comme son nom le dit contient 7 segments qui peuvent être allumés indépendamment. On utilisera pas le point décimal **DP** pour cet exercice. A l'aide d'une sequence de segments allumés, on peut représenter les nombres allant de 0 à 15 en hexadecimal qui sont **0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E et F**. Il nous faut donc 7 bits pour pouvoir contrôler indépendamment chaque segment. Cette sortie on la nommera *y*.
+L'afficheur 7 segments comme son nom le dit contient 7 segments qui peuvent être allumés indépendamment. On n'utilisera pas le point décimal **DP** pour cet exercice. À l'aide d'une séquence de segments allumés, on peut représenter les nombres allant de 0 à 15 en hexadécimal qui sont **0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E et F**. Il nous faut donc 7 bits pour pouvoir contrôler indépendamment chaque segment. Cette sortie on la nommera *y*.
 
-## Representation graphique de l'entité **seven_segment**
+## Représentation graphique de l'entité **seven_segment**
 ![](img/seven_segment_component.svg)
 
 ## Table de vérité
