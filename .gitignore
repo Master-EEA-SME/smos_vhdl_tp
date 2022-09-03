@@ -10,5 +10,7 @@
 !*.md
 # Include all folders named img
 !/**/img/**
-
+# Wavedrom
+!*.json
 !*/
+.vscode
