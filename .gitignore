@@ -1,0 +1,14 @@
+*
+!.gitignore
+# Quartus / VHDL
+!*.vhd
+!*.qpf
+!*.qsf
+!*.stp
+!*.sdc
+# Markdown
+!*.md
+# Include all folders named img
+!/**/img/**
+
+!*/
