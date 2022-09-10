@@ -53,8 +53,6 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_location_assignment PIN_G26 -to pin_arst_n_i
 set_location_assignment PIN_N2 -to pin_clk_i
-set_location_assignment PIN_P23 -to pin_btn_i[0]
-set_location_assignment PIN_W26 -to pin_btn_i[1]
 set_location_assignment PIN_AF10 -to pin_7seg_hex0_o[0]
 set_location_assignment PIN_AB12 -to pin_7seg_hex0_o[1]
 set_location_assignment PIN_AC12 -to pin_7seg_hex0_o[2]
