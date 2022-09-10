@@ -1,0 +1,8 @@
+{ "signal": [
+    { "name": "clk",         "wave": "p...|....."},
+    { "name": "current_st",  "wave": "2.2.|.2...", "data" :["released", "pressed", "released"]},
+    { "name": "btn",         "wave": "01..|0...."},
+    { "name": "press_event", "wave": "010.|....." }
+    ],
+    "config" : { "hscale" : 2 }
+}
