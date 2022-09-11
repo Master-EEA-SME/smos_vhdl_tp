@@ -1,0 +1,5 @@
+*
+# Platform designer
+!*.qsys
+!*.tcl
+!/*

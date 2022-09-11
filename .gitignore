@@ -14,3 +14,10 @@
 !*.json
 !*/
 .vscode
+**/db/**
+# NIOS
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+*_bsp

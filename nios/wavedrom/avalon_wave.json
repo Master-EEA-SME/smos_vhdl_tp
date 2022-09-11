@@ -1,0 +1,11 @@
+{"signal": [
+    {"name": "clk_i",           "wave" : "p..........", "period": 2},
+    {"name": "address_i",       "wave" : "x.5.x.5.x.5...x.5...x.", "data" : ["A0", "A0", "A1", "A2"]},
+    {"name": "write_i",         "wave" : "0.1.0.....1...0......."},
+    {"name": "write_data_i",    "wave" : "x.5.x.....5...x.......", "data" : ["D0", "D1"]},
+    {"name": "byte_enable_i",   "wave" : "x.5.x.5.x.5...x.5...x.", "data" : ["4 bytes", "4 bytes", "2 bytes", "2 bytes"]}, 
+    {"name": "read_i",          "wave" : "0.....1.0.......1...0."},
+    {"name": "read_data_o",     "wave" : "x.....5.x.........5.x.", "data" : ["D0", "D2"]},
+    {"name": "chip_select_o",   "wave" : "0.1.0.1.0.1...0.1...0."},
+    {"name": "wait_request_o",  "wave" : "0.........1.0...1.0..."}
+]}
